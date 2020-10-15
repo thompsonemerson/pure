@@ -15,16 +15,10 @@ A set of small, responsive CSS modules that you can use in every web project.
 **Use From the CDN:**
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
 ```
 
 Note: You can [customize which Pure modules you need][customize].
-
-**Install with Bower:**
-
-```shell
-$ bower install --save pure
-```
 
 **Install with NPM:**
 
@@ -33,7 +27,6 @@ $ npm install purecss
 ```
 
 [Pure]: http://purecss.io/
-[Bower]: http://bower.io/
 [Build Status]: https://travis-ci.org/pure-css/pure
 [customize]: http://purecss.io/customize/
 
@@ -62,7 +55,7 @@ of all the CSS work that every site needs, without making it look cookie-cutter:
 
 * Responsive by default, with a non-responsive option.
 
-* Extremely small file size: **4.5KB minified + gzip**.
+* Extremely small file size: **3.7KB minified + gzip**.
 
 
 [Normalize.css]: http://necolas.github.io/normalize.css/
@@ -77,16 +70,10 @@ extensive documentation and examples to help you start using Pure.
 You can include the Pure CSS file in your project by fetching it from unpkg:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
 ```
 
-You can also install Pure using [Bower][], using the following command:
-
-```shell
-$ bower install --save pure
-```
-
-Or you can install Pure using NPM:
+You can also install Pure using NPM:
 
 ```shell
 $ npm install purecss
@@ -150,21 +137,21 @@ Browser Support and Testing
 
 Pure is tested and works in:
 
-* IE 8+
+* IE 10+
 * Latest Stable: Firefox, Chrome, Safari
-* iOS 6-8
-* Android 4.4+, as the way views work changed between older versions of Android and newer versions of Android around this time.
+* iOS 12+
+* Android 6+
 
 
 Docs and Website
 ----------------
 
-[Pure's website][Pure] is also open source, so please open any issues or pull
-requests for the docs and website over at the [`pure-site`][pure-site]
-repository.
+[Pure's website][Pure] is located in the [`site`][pure-site] directory. Please feel free
+to open issues or questions in the Issue tab.
 
 
-[pure-site]: https://github.com/pure-css/pure-site
+[Pure]: http://purecss.io/
+[pure-site]: https://github.com/pure-css/pure/tree/master/site
 
 
 Contributing
